@@ -2,10 +2,8 @@ import telebot
 from groq import Groq
 
 # Tokenlaringizni qo'shtirnoq ichiga yozing
-TELEGRAM_TOKEN = "8736841116:AAGbNllcjiGQApP-qSf5X9bfQ474ezNC0w0"
-GROQ_API_KEY = "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
-"
-
+TELEGRAM_TOKEN = "8736841116:AAGbN1lcjiGQApP-qSf5X9bfQ474ezNC0w0"
+GROQ_API_KEY = "gsk_6gWJpSuyAYb4VZtou6vWGdyb3FYGds3CP4e7XHGUdINsJ17TDM"
 # Bot va Groq klentini ishga tushirish
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 client = Groq(api_key=GROQ_API_KEY)
