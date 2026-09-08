@@ -3,7 +3,7 @@ import telebot
 from groq import Groq
 
 # Tokenlarni shu yerga yozamiz
-TELEGRAM_TOKEN = "8736841116:AAGbN1IcjigQApP-qSf5X9bFq474ezNc0w0"
+TELEGRAM_TOKEN = "8736841116:AAGbNllcjiGQApP-qSf5X9bfQ474ezNC0w0"
 GROQ_API_KEY = "gsk_ziu6VUh9nwkhQ4bzx0YXWGdyb3FYg1l1G0WtInNbqCFCjwMwOP6"
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
