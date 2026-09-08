@@ -4,7 +4,7 @@ from groq import Groq
 
 # Tokenlarni shu yerga yozamiz
 TELEGRAM_TOKEN = "8736841116:AAGbNllcjiGQApP-qSf5X9bfQ474ezNC0w0"
-GROQ_API_KEY = "gsk_ziu6VUh9nwkhQ4bzx0YXWGdyb3FYg1l1G0WtInNbqCFCjwMwOP6"
+GROQ_API_KEY = "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"
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 client = Groq(api_key=GROQ_API_KEY)
